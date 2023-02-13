@@ -2,13 +2,16 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-solanagifportalblockchainprogram = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+solanagifportalblockchainprogram = "411epjTUoVTbocyurmcHzUCcfem35iJ3F3yWQ3ytJZ7w"
+[programs.devnet]
+solanagifportalblockchainprogram = "411epjTUoVTbocyurmcHzUCcfem35iJ3F3yWQ3ytJZ7w"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+# cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/kali/.config/solana/id.json"
 
 [scripts]
